@@ -1,0 +1,68 @@
+/* Generics */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Utility */
+main {
+  margin: auto;
+  width: 1000px;
+}
+
+header {
+  text-align: center;
+}
+.container {
+  max-width: 1000px;
+  margin top: 100  ;
+
+  /* classi di debug
+  border: 5px solid black; */
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+h1 {
+  text-align: center;
+  color: #e53170;
+}
+.card {
+  width: calc(100% / 3 - 20px);
+  height: 100px;
+  background-color: black;
+  color: white;
+  float: left;
+  margin: 10px;
+}
+span {
+  display: block;
+}
+
+img {
+  float: left;
+  max-height: 100%;
+}
+
+text h3,
+span,
+address {
+  margin: 15px 5px;
+  text-align: left;
+}
+
+address {
+  color: aqua;
+}
+
+.lorem {
+  text-align: center;
+}
+
+address {
+  text-decoration: none;
+}
